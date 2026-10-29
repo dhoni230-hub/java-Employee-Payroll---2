@@ -27,7 +27,7 @@ class Employe
         this.department = department;
     }
 	
-	Employe(Employee e)
+	Employe(Employe e)
     {
         id = e.id;
         name = e.name;
